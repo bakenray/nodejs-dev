@@ -1,0 +1,5 @@
+const util =require('util')
+console.log(util.format('%s is %d','bakenray',12))
+console.log(util.format('%s is a %s%s','bakenray','br'))
+console.log(util.format('%s is a','bakenray','br'))
+console.log(util.format('bakenray','is','a','fe'))
