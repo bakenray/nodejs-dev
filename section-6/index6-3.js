@@ -1,0 +1,10 @@
+const net = require('net')
+const server = new net.Server()
+server.listen('18001')
+server.on('listening',function(){
+    var address=server.address()
+    console.log('listening in 18001')
+    console.log('port',address.port)
+    console.log('address',address.address)
+    console.log('famaily',address.famaily)           
+})
